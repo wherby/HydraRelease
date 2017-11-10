@@ -5,8 +5,15 @@
 First install pyhon Flask
 
 Run CMD:
+<<<<<<< HEAD
 	java -cp .\Hydra.jar hydra.cluster.test.ContainerTest
+=======
+
+	java -cp .\hydra.jar hydra.cluster.test.ContainerTest
+	
+>>>>>>> 3b392c9eaf2188aefe53f21e1e7d55ff7dcabb37
 curl http://localhost:5000/health to get the app output
+
 curl http://localhost:5000/crash to crash the app, and the app will restart by hydra.
 
 
