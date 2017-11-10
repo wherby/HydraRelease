@@ -5,13 +5,10 @@
 First install pyhon Flask
 
 Run CMD:
-<<<<<<< HEAD
-	java -cp .\Hydra.jar hydra.cluster.test.ContainerTest
-=======
+
 
 	java -cp .\hydra.jar hydra.cluster.test.ContainerTest
 	
->>>>>>> 3b392c9eaf2188aefe53f21e1e7d55ff7dcabb37
 curl http://localhost:5000/health to get the app output
 
 curl http://localhost:5000/crash to crash the app, and the app will restart by hydra.
@@ -20,9 +17,8 @@ curl http://localhost:5000/crash to crash the app, and the app will restart by h
 ## Test node failed detect on multiple hosts:
 
 First you need to change "seed-nodes" in hydra.config file to enable cluster setup
-cross the hosts.
-   replace "akka.tcp://ClusterSystem@127.0.0.1:2551" with 
-   "akka.tcp://ClusterSystem@YOURSEEDIP:2551"
+cross the hosts. Replace "akka.tcp://ClusterSystem@127.0.0.1:2551" with 
+"akka.tcp://ClusterSystem@YOURSEEDIP:2551"
 
 When run CMD:
 
