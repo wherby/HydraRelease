@@ -23,7 +23,7 @@ curl http://localhost:5000/crash to crash the app, and the app will restart by h
 
 2. When run CMD:
 
-	java -jar .\Hydra.jar  
+		java -jar .\Hydra.jar  
 
   on each host, to start the Hydra cluster.
 
@@ -33,13 +33,14 @@ curl http://localhost:5000/crash to crash the app, and the app will restart by h
 
 5. Post to url of "yourIpaddress:9000/app" with body in format of JSON
 
-""" {
- "appname": "appTest",
- "startcmd":["python demo/app.py"],
- "prestartcmd":[]
-} """
+	""" {
+	 "appname": "appTest",
+	 "startcmd":["python demo/app.py"],
+	 "prestartcmd":[]
+	} """
 
-      to start app in the Hydra.
+  to start app in the Hydra.
+      
 
 
 
