@@ -1,0 +1,7 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+## Hydra API
+POST /app                           org.hydra.ui.controllers.RegisterController.registerApp()
