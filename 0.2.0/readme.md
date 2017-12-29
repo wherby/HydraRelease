@@ -46,6 +46,10 @@ curl http://localhost:5000/crash to crash the app, and the app will restart by h
 curl http://HOSTIPADDRESS:5000/crash to crash the app, and the app will be deployed on another host.
 
 6. crash the host which the application is running, the application also be deployed on another host.
+
+For more detail see:
+
+[C:\Users\where\Documents\github\HydraRelease\0.2.0](C:\Users\where\Documents\github\HydraRelease\0.2.0)
       
 
 
