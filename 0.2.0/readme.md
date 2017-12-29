@@ -49,7 +49,7 @@ curl http://HOSTIPADDRESS:5000/crash to crash the app, and the app will be deplo
 
 For more detail see:
 
-[C:\Users\where\Documents\github\HydraRelease\0.2.0](C:\Users\where\Documents\github\HydraRelease\0.2.0)
+[https://wherby.github.io/hydra-release-0.2.0/](https://wherby.github.io/hydra-release-0.2.0/)
       
 
 
